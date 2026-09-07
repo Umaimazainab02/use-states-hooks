@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const App = () => {
-  const [num, setnum] = useState("01")
+  const [num, setnum] = useState(1)
   function increase() {
     setnum(num + 1)
   }
