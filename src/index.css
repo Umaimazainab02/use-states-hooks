@@ -13,16 +13,41 @@ button {
   align-items: center;
   border-radius: 10px;
 }
-h1 {
-  color: white;
-  text-align: center;
-  margin-top: 20px;
-  background-color: rgb(90, 87, 87);
-  width: fit-content;
-  padding: 170px;
-  margin: 20px;
+body {
+  color: pink;
+  background-color: black;
 }
 
+button {
+  background-color: gray;
+  margin: 20px;
+  padding: 20px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+h1 {
+  color: white;
+  background-color: rgb(90, 87, 87);
+  width: fit-content;
+  padding: 150px;
+  margin: 20px ;
+  font-size: 100px;
+  border-radius: 10px;
+}
+
+.btn {
+  flex-direction: row;
+  display: flex;
+  color: white;
+  border-radius: 10px;
+}
+button{
+  padding: 30px;
+  width: 160px;
+}
 .btn {
   flex-direction: row;
   display: flex;
