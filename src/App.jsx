@@ -1,17 +1,21 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 
 const App = () => {
-  const [num, setnum] = useState("umaima")
-  const [use, setuse] = useState("30")
-  function changename(){
-     setuse("not 30")
-     setnum("not umaima")
+  const [num, setnum] = useState("01")
+  function increase() {
+    setnum(num + 1)
+  }
+  function decrease() {
+    setnum(num - 1)
   }
   return (
     <div>
-      <h1>my name is {num} zainab!! <br /> my age is {use}</h1>
-      <button onClick={changename}>Click here!!</button>
-    </div>
+      <h1>{num}</h1>
+      <div className='btn'>
+        <button onClick={increase}>Increase </button>
+        <button onClick={decrease}>decrease</button>
+      </div>  
+      </div>
   )
 }
 

@@ -1,21 +1,35 @@
-body{
-  color:pink;
-  background-color:black;
+body {
+  color: pink;
+  background-color: black;
 }
-h1{
-  background-color:gray;
+
+button {
+  background-color: gray;
   margin: 20px;
   padding: 20px;
-width: 700px;
-display:flex;
-justify-content:center;
-align-items:center;
-border-radius:10px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  background-color: rgb(90, 87, 87);
+  width: fit-content;
+  padding: 170px;
+  margin: 20px;
+}
+
+.btn {
+  flex-direction: row;
+  display: flex;
+  color: white;
+  border-radius: 10px;
 }
 button{
-  background-color:rgb(202, 78, 78);
-  color:white;
-  padding:10px;
-  margin:20px;
-  border-radius:10px;
+  padding: 30px;
+  width: 160px;
 }
